@@ -11,10 +11,6 @@ angular
 .element(document)
 .ready(
 		function() {
-
-			// inject the http provider so that it can work even during
-			// manual bootstrap
-			// @
 			myApplication
 			.config([
 			         '$httpProvider',

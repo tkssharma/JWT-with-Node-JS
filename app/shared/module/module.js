@@ -12,9 +12,9 @@
 				'request': function (config) {
 					// intercept and change config: e.g. change the URL
 
-					if ($window.localStorage['alakarte-food.token']) {
-						config.headers['x-access-token'] = $window.localStorage['alakarte-food.token'];
-						config.headers['x-user-id'] = $window.localStorage['alakarte-food.user_id'];
+					if ($window.localStorage['codfun-food.token']) {
+						config.headers['x-access-token'] = $window.localStorage['codefun-food.token'];
+						config.headers['x-user-id'] = $window.localStorage['codefun-food.user_id'];
 
 					}
 					return config || $q.when(config);

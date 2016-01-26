@@ -1,10 +1,10 @@
 
-var GOOGLE_CLIENT_ID = '295902945278-b3oqgi2daricc22mnnem3gca13q0ea12.apps.googleusercontent.com';
-var GOOGLE_SECRET_KEY = 'rMT_E9TFqlSC9B497i9WTQS9';
+var GOOGLE_CLIENT_ID = '******';
+var GOOGLE_SECRET_KEY = '******';
 var GOOGLE_CALLBACK_URL = '/api/users/google/callback';
 
-var FACEBOOK_APP_ID = '1086250834720928';
-var FACEBOOK_SECRET_KEY = '888f1a92dd4b0341e7b62b21d553704c';
+var FACEBOOK_APP_ID = '******';
+var FACEBOOK_SECRET_KEY = '******';
 var FACEBOOK_CALLBACK_URL = '/api/users/facebook/callback';
 
 var DEV_DOMAIN = 'https://codehs.herokuapp.com/';
@@ -18,8 +18,8 @@ var MONGO_DB_URI='mongodb://localhost:27017/myproject';
 
 var RESET_TOKEN_IN_HOURS = 6;
 
-var GMAIL_SMTP_EMAIL_ID = 'alacarte4313@gmail.com';
-var GMAIL_SMTP_PASSWORD = 'alacarte2015';
+var GMAIL_SMTP_EMAIL_ID = '******';
+var GMAIL_SMTP_PASSWORD = '******';
 
 
 module.exports =
